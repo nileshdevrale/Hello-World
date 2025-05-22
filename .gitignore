@@ -67,6 +67,10 @@ target/
 .idea/gradle.xml
 .idea/libraries
 
+# VS Code:
+.vscode/launch.json
+
+
 # Mongo Explorer plugin:
 .idea/mongoSettings.xml
 
@@ -97,3 +101,18 @@ fabric.properties
 # modules.xml
 # .idea/misc.xml 
 *.ipr 
+
+/data
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
